@@ -1,0 +1,87 @@
+@media (max-width: 600px) {
+    .slider-text h2
+    {
+        font-size: 40px;
+    }
+    .slider-text {
+        margin-top: 25px;
+    }
+    .clients .owl-carousel .owl-stage-outer
+    {
+        margin-left: 0px;
+    }
+    .navbar-default .navbar-collapse, 
+    .navbar-default .navbar-form
+    {
+          background-color: rgba(0, 0, 0, 0.7);
+          margin-top: 8px;
+          border:none; 
+    }
+    .navbar-default .navbar-brand
+    {
+        margin-left: 10px;
+    }
+}
+@media (max-width:768px)
+{
+    .slider-text p {
+        width: 100%;
+    }
+    .plane-item{
+        margin-bottom: 30px;
+    }
+    .contact-data
+    {
+        padding-top: 30px;
+    }
+    .item:hover .team-descript
+    {
+        top: 25%;
+    }
+    .navbar-default .navbar-collapse, 
+    .navbar-default .navbar-form
+    {
+          background-color: rgba(0, 0, 0, 0.7);
+          margin-top: 8px;
+          border:none; 
+    }
+    .navbar-default .navbar-brand
+    {
+        margin-left: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact-data
+    {
+        padding-top: 30px;
+    }
+    .item:hover .team-descript
+    {
+        top: 60%;
+    }
+    .gallery .item figure figcaption
+    {
+        padding-bottom: 55vh;
+    }
+    .navbar-default .navbar-collapse, 
+    .navbar-default .navbar-form
+    {
+          background-color: rgba(0, 0, 0, 0.7);
+          margin-top: 8px;
+          border:none; 
+    }
+    .navbar-default .navbar-brand
+    {
+        margin-left: 10px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .item:hover .team-descript
+    {
+        top: 50%;
+    }
+    .gallery .item figure figcaption
+    {
+        padding-bottom: 49vh;
+    }
+}
